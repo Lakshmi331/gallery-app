@@ -1,0 +1,41 @@
+.app-contaier {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  max-width: 1000px;
+  padding-left: 20px;
+}
+
+.selected-image {
+  border-radius: 10px;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 10px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.thumbnails-list {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
